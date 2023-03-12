@@ -4,7 +4,7 @@
 :root{
   --font-family: 'Tilt Neon', sans-serif;
   --bold-font: 700;
-  --bg-color: black;
+  --bg-color: #222831;
   --primary-color: white;
   --secondary-color: grey;
   --feature-color: #ff6200;
@@ -22,8 +22,12 @@ body {
   background-color: var(--bg-color);
 }
 
-h1, h2 {
-  color: var(--feature-color);
+h1 {
+  color: var(--primary-color);
+}
+
+h2, p {
+  color: var(--primary-color);
 }
 
 h1,
@@ -39,16 +43,11 @@ ul {
   padding: 10px 30px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: var(--feature-color);
+  background: var(--primary-color);
   color: var(--bg-color);
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--secondary-color);
   font-weight: 500;
   cursor: pointer;
-}
-
-.btn-light {
-  background: transparent;
-  color: var(--primary-color);
 }
 
 .btn:hover {
