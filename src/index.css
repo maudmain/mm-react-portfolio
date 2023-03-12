@@ -18,9 +18,9 @@
   font-family: var(--font-family);
 }
 
-body {
+/* body {
   background-color: var(--bg-color);
-}
+} */
 
 h1 {
   color: var(--primary-color);

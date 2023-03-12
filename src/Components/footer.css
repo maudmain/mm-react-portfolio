@@ -1,12 +1,4 @@
-/* General style*/
-:root {
-  --font-family: "Tilt Neon", sans-serif;
-  --bold-font: 700;
-  --bg-color: #222831;
-  --primary-color: #f2f2f2;
-  --secondary-color: #393e46;
-  --feature-color: #f96d00;
-}
+
 .footer {
     width: 100%;
     padding: 4rem o;
