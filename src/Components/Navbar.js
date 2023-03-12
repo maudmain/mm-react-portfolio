@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 
 const Navbar = () => {
-    const [click, setClick] = useState("false");
+    const [click, setClick] = useState("true ");
   const handleClick = () => setClick(!click);
 
   const [color, setColor] = useState(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
           <h1>Maud Mainnemard</h1>
         </Link>
         <div>
-          <ul className={click ? "navbar-menu active" : "navbar-menu"}>
+          <ul className={click ? "navbar-menu " : "navbar-menu active"}>
             <li>
               <a href="/">Home</a>
             </li>
@@ -42,9 +42,9 @@ const Navbar = () => {
           </ul>
           <div className="hamburger" onClick={handleClick}>
             {click ? (
-              <FaTimes size={20} style={{ color: "#f2f2f2" }} />
-            ) : (
               <FaBars size={20} style={{ color: "#f2f2f2" }} />
+            ) : (
+              <FaTimes size={20} style={{ color: "#f2f2f2" }} />
             )}
           </div>
         </div>
