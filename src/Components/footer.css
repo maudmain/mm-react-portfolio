@@ -1,0 +1,38 @@
+/* General style*/
+:root {
+  --font-family: "Tilt Neon", sans-serif;
+  --bold-font: 700;
+  --bg-color: #222831;
+  --primary-color: #f2f2f2;
+  --secondary-color: #393e46;
+  --feature-color: #f96d00;
+}
+.footer {
+    width: 100%;
+    padding: 4rem o;
+    background-color: var(--secondary-color);
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social h4 {
+  margin-right: 10px;
+  color: var(--primary-color);
+}
+
+.social > * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
