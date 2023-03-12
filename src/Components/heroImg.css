@@ -1,5 +1,6 @@
 .hero-img {
     width: 100%;
+    /* background: var(--bg-color); */
     height: 60vh;
     position: relative;
 }

@@ -6,13 +6,10 @@ const HeroImg = () => {
   return (
     <div className="hero-img">
       <div className="heading">
-        <h1>Projects</h1>
-        <p>Check out my latest projects.</p>
-
+        <h1>Check out my latest projects.</h1>
       </div>
-      
     </div>
-  )
+  );
 }
 
 export default HeroImg
