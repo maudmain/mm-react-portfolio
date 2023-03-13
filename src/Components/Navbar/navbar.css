@@ -31,6 +31,25 @@
   display: none;
 }
 
+.navbar-menu h1 {
+  color: var(--primary-color);
+}
+
+.avatar {
+  width: 4em;
+  height: 4em;
+  background-color: grey;
+  padding: 0.2em;
+  border-radius: 50%;
+  margin: 1em;
+}
+
+.avatar-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 1040px) {
   .navbar-menu {
     flex-direction: column;
@@ -61,6 +80,8 @@
   }
 }
 
-.navbar-menu h1 {
-  color: var(--primary-color);
+@media only screen and (max-width: 640px) {
+  .avatar-div {
+    flex-direction: column;
+  }
 }

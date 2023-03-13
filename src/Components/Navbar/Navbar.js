@@ -1,8 +1,10 @@
-import "./navbar.css"
+import "./navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-import React, { useState } from 'react'
-import { Link } from "react-router-dom"
+import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+
+import portrait from "../../assets/PORTRAIT.jpg";
 
 const Navbar = () => {
     const [click, setClick] = useState("true ");
@@ -22,9 +24,12 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <nav className="header">
-        <Link to="/">
-          <h1>Maud Mainnemard</h1>
-        </Link>
+        <div className="avatar-div">
+          <img className="avatar" src={portrait}></img>
+          <Link to="/">
+            <h1>Maud Mainnemard</h1>
+          </Link>
+        </div>
         <div>
           <ul className={click ? "navbar-menu " : "navbar-menu active"}>
             <li>
