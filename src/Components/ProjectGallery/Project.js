@@ -1,10 +1,8 @@
+import ProjectCard from "../ProjectCard/ProjectCard";
+import projectData from "../ProjectsData.json";
+import Wrapper from "../Wrapper/Wrapper";
 
-import ProjectCard from "./ProjectCard/ProjectCard";
-import projectData from "./ProjectsData.json";
-import Wrapper from "./Wrapper/Wrapper";
-
-
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 const Project = () => {
   const [projects, setProject] = useState(projectData);
