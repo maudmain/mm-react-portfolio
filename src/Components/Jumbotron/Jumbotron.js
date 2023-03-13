@@ -8,7 +8,7 @@ const Jumbotron = () => {
   return (
     <div className="jumbotron">
       <div className="mask">
-        <img className="jumbotron-bg" src={HeroBg} alt="" Jumbotron Image />
+        <img className="jumbotron-bg" src={HeroBg} alt=""  />
         <div className="jumbotron-content">
           <p>John Johnson once said:</p>
           <h2>“First, solve the problem. Then, write the code.”</h2>
