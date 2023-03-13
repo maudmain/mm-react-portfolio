@@ -1,0 +1,51 @@
+
+[
+    {
+        "id": 1,
+        "image": "",
+        "title": "Get Ready, Travel Info Guide",
+        "text": "Front end webpage that gathers information about a location for a user to help prepare for their travel.",
+        "view": "https://maks6831.github.io/travel-infoguide/",
+        "source": "https://github.com/Maks6831/travel-infoguide"
+    },
+    {
+        "id": 2,
+        "image": "",
+        "title": "Weather App",
+        "text": "Weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.",
+        "view": "https://maudmain.github.io/mm-weather-app/",
+        "source": "https://github.com/maudmain/mm-weather-app"
+    },
+    {
+        "id": 3,
+        "image": "",
+        "title": "",
+        "text": "",
+        "view": "",
+        "source": ""
+    },
+    {
+        "id": 4,
+        "image": "",
+        "title": "",
+        "text": "",
+        "view": "",
+        "source": ""
+    },
+    {
+        "id": 5,
+        "image": "",
+        "title": "",
+        "text": "",
+        "view": "",
+        "source": ""
+    },
+    {
+        "id": 6,
+        "image": "",
+        "title": "",
+        "text": "",
+        "view": "",
+        "source": ""
+    }
+]
