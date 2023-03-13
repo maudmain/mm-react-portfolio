@@ -1,7 +1,7 @@
 import "./jumbotron.css"
 import React from 'react'
 
-import HeroBg from "../assets/img/oleg-laptev-QRKJwE6yfJo-unsplash.jpg";
+import HeroBg from "../../assets/img/oleg-laptev-QRKJwE6yfJo-unsplash.jpg";
 import { Link } from "react-router-dom";
 
 const Jumbotron = () => {

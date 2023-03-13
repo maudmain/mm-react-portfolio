@@ -7,7 +7,7 @@
 
 .hero-img::before {
  content: "";
- background: url('../assets/img/natalia-y-DIewyzpUbRc-unsplash.jpg');
+ background: url('../../assets/img/natalia-y-DIewyzpUbRc-unsplash.jpg');
  background-size: cover;
  background-position: center top;
  height: 100%;
