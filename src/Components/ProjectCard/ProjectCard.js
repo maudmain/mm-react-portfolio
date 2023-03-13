@@ -3,12 +3,10 @@ import "./projectCard.css";
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const imgPath = "/assets/DataAssets/";
-
 const ProjectCard = (props) => {
   return (
     <div className="card-container">
-          <img src= {imgPath + props.img } alt="" />
+          <img src= {props.img } alt="" />
       <h2 className="project-title">{props.title}</h2>
       <div className="project-detail">
               <p> { props.text}</p>

@@ -1,15 +1,18 @@
 import "./heroBg.css";
 
-import React from 'react'
+import Reac, { Component } from 'react'
 
-const HeroImg = () => {
-  return (
-    <div className="hero-img">
-      <div className="heading">
-        <h1>Check out my latest projects.</h1>
+class HeroImg extends Component {
+  render() {
+    return (
+      <div className="hero-img">
+        <div className="heading">
+          <h1> {this.props.heading}</h1>
+          <p> {this.props.text}</p>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default HeroImg
