@@ -2,7 +2,7 @@
 [
     {
         "id": 1,
-        "img": "GetReady.png",
+        "img": "src/assets/DataAssets/GetReady.png",
         "title": "Get Ready, Travel Info Guide",
         "text": "Front end webpage that gathers information about a location for a user to help prepare for their travel.",
         "view": "https://maks6831.github.io/travel-infoguide/",
@@ -19,33 +19,33 @@
     {
         "id": 3,
         "img": "",
-        "title": "",
-        "text": "",
-        "view": "",
-        "source": ""
+        "title": "Team Directory",
+        "text": "Command Line Application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
+        "view": "https://github.com/maudmain/team-directory-page",
+        "source": "https://github.com/maudmain/team-directory-page"
     },
     {
         "id": 4,
         "img": "",
-        "title": "",
-        "text": "",
-        "view": "",
-        "source": ""
+        "title": "Boostrap Portfolio",
+        "text": " Portfolio built using Bootstrap CSS Framework.",
+        "view": "https://maudmain.github.io/maudmain-bootstrap-portfolio/",
+        "source": "https://github.com/maudmain/maudmain-bootstrap-portfolio"
     },
     {
         "id": 5,
         "img": "",
-        "title": "",
-        "text": "",
-        "view": "",
-        "source": ""
+        "title": "Work Day Scheduler",
+        "text": "A simple calendar application that allows a user to save events for each hour of the day.",
+        "view": "https://maudmain.github.io/mm-daily-scheduler/",
+        "source": "https://github.com/maudmain/mm-daily-scheduler"
     },
     {
         "id": 6,
         "img": "",
-        "title": "",
-        "text": "",
-        "view": "",
-        "source": ""
+        "title": "Coding Quizz",
+        "text": "A combination of multiple-choice questions and interactive coding Challenges.",
+        "view": "https://maudmain.github.io/APIs-coding-quizz/",
+        "source": "https://github.com/maudmain/APIs-coding-quizz"
     }
 ]
