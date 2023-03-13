@@ -8,7 +8,7 @@ import portrait from "../../assets/PORTRAIT.jpg"
 const AboutContent = () => {
   return (
     <div className="about">
-      <div className="left">
+      <div className="about-content">
         <h1>A little about me</h1>
         <p>
           In 2022 I decided to change my career path after
@@ -22,11 +22,7 @@ const AboutContent = () => {
                   <button className="btn">Contact</button>
               </Link>
       </div>
-          <div className="right">
-              <div className="img-container">
-                  <img src={ portrait } ></img>
-              </div>
-      </div>
+        
     </div>
   );
 }

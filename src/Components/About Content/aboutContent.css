@@ -8,14 +8,14 @@
   height: 100%;
 }
 
-.about .left {
+.about .about-content {
   text-align: center;
   margin: auto;
   padding: 1rem;
   max-width: 350px;
 }
 
-.about .left p {
+.about .about-content p {
   margin: 1.2rem 0;
 }
 
