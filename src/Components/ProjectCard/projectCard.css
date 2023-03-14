@@ -1,6 +1,8 @@
+/* This style sheet conatins styles for the ProjectCard and the Project files */ 
 .project-heading {
     text-align: center;
     padding: 4rem 0 2rem 0;
+    
 }
 
 .project-container {
@@ -10,16 +12,22 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
+    padding-top: 2rem;
 }
 
 .card-container {
 background: var(--secondary-color);
-padding: 1.2rem 1rem
+padding: 1.2rem 1rem;
+text-align: center;
 }
 
+.image-div {
+    width: 350px;
+    height: 200px;
+}
 .card-container img {
-    max-width: 100px;
-    max-height: 150px;
+    max-width: 300px;
+    max-height: 200px;
 }
 
 .project-title {
@@ -27,10 +35,10 @@ padding: 1.2rem 1rem
 }
 
 .project-details {
+    
     padding-bottom: 1rem;
     font-size: 1 rem;
-    text-align: justify;
-}
+    }
 
 .project-btns {
     display: flex;
@@ -52,5 +60,14 @@ padding: 1.2rem 1rem
             margin: auto;
 
             grid-template-columns: 1fr;
+        }
+        
+    }
+
+      @media  screen and ( max-width: 400px) {
+    .card-container {
+        max-width: 90%;
+        text-align: center;
+            
         }
     }

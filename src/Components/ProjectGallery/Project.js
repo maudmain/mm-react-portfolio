@@ -10,7 +10,7 @@ const Project = () => {
   return (
     <div className="project-container">
       <h1 className="project-heading">Project Gallery</h1>
-      <Wrapper>
+      {/* <Wrapper> */}
         {projects.map((project) => (
           <ProjectCard
             id={project.id}
@@ -22,7 +22,7 @@ const Project = () => {
             source={project.source}
           />
         ))}
-      </Wrapper>
+      {/* </Wrapper> */}
     </div>
   );
 };
