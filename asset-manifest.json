@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mm-react-portfolio/static/css/main.ffb37384.css",
-    "main.js": "/mm-react-portfolio/static/js/main.ae17f4ff.js",
+    "main.css": "/mm-react-portfolio/static/css/main.05abc366.css",
+    "main.js": "/mm-react-portfolio/static/js/main.fbb0f63d.js",
     "static/media/oleg-laptev-QRKJwE6yfJo-unsplash.jpg": "/mm-react-portfolio/static/media/oleg-laptev-QRKJwE6yfJo-unsplash.354649f308f8434e7121.jpg",
     "static/media/PORTRAIT.jpg": "/mm-react-portfolio/static/media/PORTRAIT.5f6d30a7d29fa889d98b.jpg",
     "static/media/natalia-y-DIewyzpUbRc-unsplash.jpg": "/mm-react-portfolio/static/media/natalia-y-DIewyzpUbRc-unsplash.2eb45ac6bb488a2a6930.jpg",
     "index.html": "/mm-react-portfolio/index.html",
-    "main.ffb37384.css.map": "/mm-react-portfolio/static/css/main.ffb37384.css.map",
-    "main.ae17f4ff.js.map": "/mm-react-portfolio/static/js/main.ae17f4ff.js.map"
+    "main.05abc366.css.map": "/mm-react-portfolio/static/css/main.05abc366.css.map",
+    "main.fbb0f63d.js.map": "/mm-react-portfolio/static/js/main.fbb0f63d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffb37384.css",
-    "static/js/main.ae17f4ff.js"
+    "static/css/main.05abc366.css",
+    "static/js/main.fbb0f63d.js"
   ]
 }
