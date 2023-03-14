@@ -10,21 +10,26 @@ const Footer = () => {
       <div className="footer-container">
         <div className="social">
           <h4>To check out what I have been up to, follow me on </h4>
-          <FaGithub
-            
-            /*https://github.com/maudmain*/
-            size={40}
-            style={{
-              color: "#f2f2f2",
-            }}
-          />
-          <FaLinkedin
-            /*https://www.linkedin.com/in/maud-mainnemard/*/
-            size={40}
-            style={{
-              color: "#f2f2f2",
-            }}
-          />
+
+          <a href="https://github.com/maudmain" target={"_blank"}>
+            <FaGithub
+              size={40}
+              style={{
+                color: "#f2f2f2",
+              }}
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/maud-mainnemard/"
+            target={"_blank"}
+          >
+            <FaLinkedin
+              size={40}
+              style={{
+                color: "#f2f2f2",
+              }}
+            />
+          </a>
         </div>
       </div>
     </div>
