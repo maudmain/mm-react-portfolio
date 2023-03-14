@@ -2,7 +2,7 @@
 [
     {
         "id": 1,
-        "img": "src/assets/DataAssets/GetReady.png",
+        "img": "Project1.png",
         "title": "Get Ready, Travel Info Guide",
         "text": "Front end webpage that gathers information about a location for a user to help prepare for their travel.",
         "view": "https://maks6831.github.io/travel-infoguide/",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "img": "",
+        "img": "Project2.png",
         "title": "Weather App",
         "text": "Weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.",
         "view": "https://maudmain.github.io/mm-weather-app/",
@@ -18,7 +18,7 @@
     },
     {
         "id": 3,
-        "img": "",
+        "img": "Project3.png",
         "title": "Team Directory",
         "text": "Command Line Application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
         "view": "https://github.com/maudmain/team-directory-page",
@@ -26,7 +26,7 @@
     },
     {
         "id": 4,
-        "img": "",
+        "img": "Project4.png",
         "title": "Boostrap Portfolio",
         "text": " Portfolio built using Bootstrap CSS Framework.",
         "view": "https://maudmain.github.io/maudmain-bootstrap-portfolio/",
@@ -34,7 +34,7 @@
     },
     {
         "id": 5,
-        "img": "",
+        "img": "Project5.png",
         "title": "Work Day Scheduler",
         "text": "A simple calendar application that allows a user to save events for each hour of the day.",
         "view": "https://maudmain.github.io/mm-daily-scheduler/",
@@ -42,7 +42,7 @@
     },
     {
         "id": 6,
-        "img": "",
+        "img": "Project6.png",
         "title": "Coding Quizz",
         "text": "A combination of multiple-choice questions and interactive coding Challenges.",
         "view": "https://maudmain.github.io/APIs-coding-quizz/",

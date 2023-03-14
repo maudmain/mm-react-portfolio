@@ -25,7 +25,7 @@ const Navbar = () => {
     <div className={color ? "header header-bg" : "header"}>
       <nav className="header">
         <div className="avatar-div">
-          <img className="avatar" src={portrait}></img>
+          <img className="avatar" src={portrait} alt="Maud's Portrait"></img>
           <Link to="/">
             <h1>Maud Mainnemard</h1>
           </Link>
@@ -45,7 +45,13 @@ const Navbar = () => {
               <a href="/contact">Contact</a>
             </li>
             <li>
-              <a href={process.env.PUBLIC_URL + '/images/MaudMain-Resume.pdf'}>Resume</a>
+              <a
+                href={process.env.PUBLIC_URL + "/images/MaudMain-Resume.pdf"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
+              </a>
             </li>
           </ul>
           <div className="hamburger" onClick={handleClick}>
