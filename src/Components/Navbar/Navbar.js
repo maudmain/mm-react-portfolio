@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="avatar-div">
           <img className="avatar" src={portrait} alt="Maud's Portrait"></img>
           <Link to="/">
-            <h1>Maud Mainnemard</h1>
+            <h1>Maud Mainnemard Portfolio</h1>
           </Link>
         </div>
         <div>

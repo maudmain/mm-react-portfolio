@@ -18,3 +18,7 @@
 .about .about-content p {
   margin: 1.2rem 0;
 }
+
+.about-content .btn {
+  margin: 1rem 0.2rem;
+}

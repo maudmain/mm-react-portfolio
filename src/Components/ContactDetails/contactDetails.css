@@ -18,3 +18,12 @@
 .details .details-content p {
   margin: 1.2rem 0;
 }
+
+.email-link {
+  font-size: 2rem;
+  
+}
+
+.email-link a {
+color: var(--feature-color);
+}
