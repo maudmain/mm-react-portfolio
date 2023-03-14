@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const ProjectCard = (props) => {
   return (
     <div className="card-container">
-      <img src={ '/images/' +props.img} alt="Project screenshot" />
+      <img src={process.env.PUBLIC_URL + "/images/" + props.img} alt="Project screenshot" />
       <h2 className="project-title">{props.title}</h2>
       <div className="project-detail">
         <p> {props.text}</p>

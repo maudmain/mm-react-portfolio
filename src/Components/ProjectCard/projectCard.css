@@ -17,6 +17,11 @@ background: var(--secondary-color);
 padding: 1.2rem 1rem
 }
 
+.card-container img {
+    max-width: 100px;
+    max-height: 150px;
+}
+
 .project-title {
     padding: 1rem 0;
 }

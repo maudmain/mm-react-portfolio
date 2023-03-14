@@ -2,7 +2,6 @@ import "./contactDetails.css";
 
 import React from "react";
 
-import { Link } from "@react-email/link";
 import ButtonMailto from "../Links/EmailLink";
 
 const ContactDetails = () => {

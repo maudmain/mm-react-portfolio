@@ -3,8 +3,6 @@ import "./aboutContent.css";
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import portrait from "../../assets/PORTRAIT.jpg"
-
 const AboutContent = () => {
   return (
     <div className="about">

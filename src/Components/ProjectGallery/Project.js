@@ -5,7 +5,7 @@ import Wrapper from "../Wrapper/Wrapper";
 import React, { useState } from "react";
 
 const Project = () => {
-  const [projects, setProject] = useState(projectData);
+  const [projects] = useState(projectData);
 
   return (
     <div className="project-container">
