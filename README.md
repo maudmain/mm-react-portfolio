@@ -33,8 +33,7 @@ With this project I have learn how to:
 
 
 ## ⏯️ Usage
-1. To start open the terminal and run `npm start`. <br>
-The [http://localhost:3000](http://localhost:3000) will load in your browser.
+1. Open the [deployed link](https://maudmain.github.io/mm-react-portfolio/) 
 
 2. Navigate to different pages and links using the navbar.
 - Home 
