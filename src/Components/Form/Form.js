@@ -1,5 +1,6 @@
 import "./form.css";
 
+// Importing the necessary packages from React
 import React from 'react'
 
 const Form = () => {

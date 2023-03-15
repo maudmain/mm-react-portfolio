@@ -1,25 +1,32 @@
+// Importing style
 import "./navbar.css";
+// Importing the necessary packages from React
 import { FaBars, FaTimes } from "react-icons/fa";
-
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import portrait from "../../assets/PORTRAIT.jpg";
 
 const Navbar = () => {
-    const [click, setClick] = useState("true ");
+  // Using the useState hook to initialize 'click' state variable with the value "true"
+
+  const [click, setClick] = useState("true ");
+  // Defining the handleClick function that toggles the value of 'click'
   const handleClick = () => setClick(!click);
 
+  // Using the useState hook to initialize 'color' state variable with the value false
   const [color, setColor] = useState(false);
+
+  // Defining the changeColor function that changes the value of 'color' based on the scroll position
   const changeColor = () => {
-    if (window.scrollY >= 100 ) {
+    if (window.scrollY >= 100) {
       setColor(true);
     } else {
       setColor(false);
     }
   };
+  // Adding an event listener for 'scroll' that calls the changeColor function
   window.addEventListener("scroll", changeColor);
-
 
   return (
     <div className={color ? "header header-bg" : "header"}>
@@ -45,6 +52,7 @@ const Navbar = () => {
               <Link to="/contact">Contact</Link>
             </li>
             <li>
+              {/* Rendering a link to Maud's resume */}
               <a
                 href={process.env.PUBLIC_URL + "/images/MaudMain-Resume.pdf"}
                 target="_blank"
@@ -54,6 +62,9 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
+          {
+            /* Rendering the hamburger icon and binding the handleClick function to its click event. */
+          }
           <div className="hamburger" onClick={handleClick}>
             {click ? (
               <FaBars size={20} style={{ color: "#f2f2f2" }} />
@@ -65,6 +76,6 @@ const Navbar = () => {
       </nav>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

@@ -1,4 +1,7 @@
+// Importing the necessary packages from React
 import React from "react";
+
+// Importing components
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 import HeroImg from "../Components/Hero/HeroBg";

@@ -1,7 +1,10 @@
+// Importing style
 import "./contactDetails.css";
 
+// Importing the necessary packages from React
 import React from "react";
 
+// Importing component
 import ButtonMailto from "../Links/EmailLink";
 
 const ContactDetails = () => {

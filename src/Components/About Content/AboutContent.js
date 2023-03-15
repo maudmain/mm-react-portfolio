@@ -1,6 +1,8 @@
+// Importing style
 import "./aboutContent.css";
 
-import React from 'react'
+// Importing the necessary packages from React
+import React from "react";
 import { Link } from "react-router-dom";
 
 const AboutContent = () => {
@@ -25,6 +27,6 @@ const AboutContent = () => {
       </div>
     </div>
   );
-}
+};
 
-export default AboutContent
+export default AboutContent;
