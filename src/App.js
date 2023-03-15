@@ -9,10 +9,10 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
 
 // Importing components
-import Home from "./Pages/Home";
+import { Home } from "./Pages/Home";
 import About from "./Pages/About";
 import Projects from "./Pages/Projects";
-import Contact from "./Pages/Contact";
+import { Contact } from "./Pages/Contact";
 
 
 function App() {

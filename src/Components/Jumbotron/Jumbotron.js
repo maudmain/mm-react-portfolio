@@ -12,7 +12,7 @@ const Jumbotron = () => {
   return (
     <div className="jumbotron">
       <div className="mask">
-        <img className="jumbotron-bg" src={HeroBg} alt=" Background image by Oleg Laptev of an orange microphone on organge backgroung " />
+        <img className="jumbotron-bg" src={HeroBg} alt=" Background by Oleg Laptev of an orange microphone on organge backgroung " />
         <div className="jumbotron-content">
           <p>John Johnson once said:</p>
           <h2>“First, solve the problem. Then, write the code.”</h2>

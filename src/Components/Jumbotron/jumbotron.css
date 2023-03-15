@@ -39,7 +39,7 @@
   margin: 1rem 0.2rem;
 }
 
-
+/* Media query - smaller font for smaller screen*/
 @media screen and (max-width: 640px) {
 
 .jumbotron-content h2 {

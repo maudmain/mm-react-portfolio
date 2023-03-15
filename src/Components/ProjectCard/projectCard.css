@@ -1,73 +1,76 @@
-/* This style sheet conatins styles for the ProjectCard and the Project files */ 
+/* This style sheet contains styles for the ProjectCard and the Project files */
 .project-heading {
-    text-align: center;
-    padding: 4rem 0 2rem 0;
-    
+  text-align: center;
+  padding: 4rem 0 2rem 0;
 }
 
 .project-container {
-    max-width: 1140px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-    padding-bottom: 5rem;
-    padding-top: 2rem;
+    
+  max-width: 1140px;
+  margin: auto;
+  /* grid layout with 3 equal col and a gap =>> will need to revisit this to find better layout*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
 }
 
 .card-container {
-background: var(--secondary-color);
-padding: 1.2rem 1rem;
-text-align: center;
+  background: var(--secondary-color);
+  padding: 1.2rem 1rem;
+  text-align: center;
+
 }
 
 .image-div {
-    width: 350px;
-    height: 200px;
+  width: 350px;
+  height: 200px;
 }
 .card-container img {
-    max-width: 300px;
-    max-height: 200px;
+  max-width: 300px;
+  max-height: 200px;
 }
 
 .project-title {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 .project-details {
-    
-    padding-bottom: 1rem;
-    font-size: 1 rem;
-    }
+  padding-bottom: 1rem;
+  font-size: 1 rem;
+}
 
 .project-btns {
-    display: flex;
-    justify-content: space-around;
-    padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
 }
 
 .project-btns .btn {
-    padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .project-card img {
-    width: 100%;
-    }
+  width: 100%;
+}
 
-    @media  screen and ( max-width: 740px) {
-        .project-container {
-            max-width: 90%;
-            margin: auto;
+/* Media queries for responsive design */
 
-            grid-template-columns: 1fr;
-        }
-        
-    }
+/* For screens with max width 740px or less, set max width to 90%, center align project container and set it to 1 column */
+@media screen and (max-width: 740px) {
+  .project-container {
+    max-width: 90%;
+    margin: auto;
 
-      @media  screen and ( max-width: 400px) {
-    .card-container {
-        max-width: 90%;
-        text-align: center;
-            
-        }
-    }
+    grid-template-columns: 1fr;
+  }
+}
+
+/* For screens with max width 400px or less, set max width of project card container to 90% and center align it */
+@media screen and (max-width: 400px) {
+  .card-container {
+    max-width: 90%;
+    text-align: center;
+  }
+}
