@@ -38,16 +38,16 @@ With this project I have learn how to:
 2. Navigate to different pages and links using the navbar.
 - Home 
 Brand statement, buttons to About and Contact pages.
-[Landing Page](./src/assets/screenshots/React-Portfolio-Landing.png)
+![Landing Page](./src/assets/screenshots/React-Portfolio-Landing.png)
 
 - About
 Quick note and button to projects and contact pages.
 - Projects
 Project Gallery displaying tiles, title, text and links to deployed page and GitHub repo.
-[Projects page](./src/assets/screenshots/React-Portfolio-Projects.png)
+![Projects page](./src/assets/screenshots/React-Portfolio-Projects.png)
 - Contact
 Contact Form (only front end- not working) and email link (working)
-[Contact page](./src/assets/screenshots/React-Portfolio-Contact.png)
+![Contact page](./src/assets/screenshots/React-Portfolio-Contact.png)
 - Resume 
 PDF opens in a new tab
 - Social links on all pages (in the footer)
