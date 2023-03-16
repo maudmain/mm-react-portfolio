@@ -63,6 +63,9 @@ If you're interested in contributing, fork the repo, make your changes, and subm
 
 - edX Bootcamp: for project brief and criterias, tutorial and ressources on React provided during this week's course.
 - [Tech2 etc portfolio tutorial](https://www.youtube.com/watch?v=0h2b4ftbZcU) which offered a great portfolio layout and step by step instructions.
+- Unsplash for jumbotron and Hero pictures
+https://unsplash.com/photos/DIewyzpUbRc 
+https://unsplash.com/photos/QRKJwE6yfJo
 
 
 ## 📜 License
